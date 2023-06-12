@@ -1,0 +1,49 @@
+{
+    "exercises": [
+        {
+            "name": "001_hello",
+            "expected_output": "Hello, World!",
+            "hint": "Try changing the string \"Hello, Valhalla!\" to change the output message.",
+        },
+        {
+            "name": "002_import",
+            "expected_output": "Successful import",
+            "hint": "The keyword \"include\" is not how importing messages works in Odin. Do you remember what is?",
+        },
+        {
+            "name": "003_import2",
+            "expected_output": "Successful import",
+            "hint": "Look at what package we're attempting to get the print() function from, and reference core:fmt by that name."
+        },
+        {
+            "name": "004_assignment",
+            "expected_output": "20\n10",
+            "hint": "You can declare and assign a variable on the same line. How is that done?",
+        },
+        {
+            "name": "005_comments",
+            "expected_output": "Successfully learned how to comment in Odin.",
+            "hint": "Look at how the broken single line comment starts and how the multi-line comment ends."
+        },
+        {
+            "name": "006_arrays",
+            "expected_output": "Last odd num: 15\nLast even num: 18\nNumber of odds: 8\nNumber of evens: 9",
+            "hint": "For the even and odd number array declarations, look carefully at the length of each array, and use that in the declaration."
+        },
+        {
+            "name": "007_arrays2",
+            "expected_output": "Array b contents: 14, 30, 24, 90\nArray e contents: 13, 9, 5, 0",
+            "hint": "Check the operation being done to array a, and make sure the length of array c matches up with array d."
+        },
+        {
+            "name": "008_quiz",
+            "expected_output": "Our Viking longship must go 1380 miles north and 3816 miles west.",
+            "hint": ""
+        },
+        {
+            "name": "009_strings",
+            "expected_output": "Line one\nLine two\nOdin Rocks\nLast byte: s",
+            "hint": "For the \"change the first byte\" problem, try re-assigning the string. Grabbing the last byte is done the same way as any other array."
+        }
+    ]
+}
